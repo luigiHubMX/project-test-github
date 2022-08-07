@@ -30,10 +30,4 @@ public class ArithmeticTest {
         Assert.assertEquals(arith.div(),2);
     }
 
-    @Test
-    public void divTestFail() {
-        Arithmetic arith = new Arithmetic(4,2);
-        Assert.assertEquals(arith.div(),5);
-    }
-
 }
